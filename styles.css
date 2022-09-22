@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.header, footer, .section-1 {
+  background-color: #1F2937;
+}
+
+.hero-text {
+  font-size: 48px;
+  font-weight: bold;
+  color: #F9FAF8;
+}
+
+.header, .hero-secondary-text, li, .text {
+  font-size: 18px;
+  color: #E5E7EB
+}
+
+.hero-secondary-text {
+  margin-bottom: 16px;
+}
+
+.header-logo {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #F9FAF8
+}
+
+.header {
+  display: flex;
+  flex-shrink: 0;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height: 56px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 56px;
+  color: #F9FAF8;
+}
+
+.header-links {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 16px;
+}
+
+.section-1, .section-2, .section-3, .section-4, footer {
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+
+.section-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
+
+.section-1-container-1, .section-1-container-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 475px;
+  height: 225px;
+  margin: 24px;
+}
+
+.section-1-container-2 {
+  background-color: grey;
+  align-items: center;
+}
+
+.sign-up-button, .sign-up-button-2 {
+  background-color: #3882F6;
+  color: #F9FAF8;
+  font-weight: bold;
+  width: 140px;
+  height: 40px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5rem;
+}
+
+.sign-up-button-2 {
+  border: solid 2px #F9FAF8;
+}
+
+.section-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.info {
+  font-size: 36px;
+  margin: 32px;
+  font-weight: bold;
+  color: #1F2937;
+}
+
+.section-2-container {
+  display: flex;
+  gap: 32px;
+  margin-bottom: 32px;
+}
+
+.content-containers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 180px;
+  text-align: center;
+}
+
+.illustration {
+  width: 165px;
+  height: 165px;
+  margin-bottom: 8px;
+  border-radius: 0.5rem;
+  border: solid 3px #3882F6;
+}
+
+.section-3 {
+  background-color: #E5E7EB;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  height: 300px;
+  width: 45%;
+}
+
+.signature {
+  text-align: right;
+  font-style: normal;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.section-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 350px;
+}
+
+.section-4-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 150px;
+  width: 1200px;
+  background-color: #3882F6;
+  border-radius: 0.5rem;
+}
+
+.text-2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #F9FAF8;
+}
